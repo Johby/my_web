@@ -1,0 +1,49 @@
+
+.heading
+{
+        color:blue; 
+        font-size: 40px;
+}
+
+.description
+{
+        color:white; 
+        font-size: 20px;
+        border-style: dotted;
+        border-left-style: solid;
+        border-color: black;
+        background-color: black;
+        padding: 10px;
+}
+
+.image
+{
+	width: 400px;
+	position: relative;
+}
+
+.chart {
+    width: 200%;
+    height: 300px;
+}
+
+.circ1 {
+    stroke: green; 
+    fill: yellow;
+    stroke-width: 10;
+}
+
+.rect1
+{
+	stroke: blue;
+	fill: blue;
+	size: 20px;
+}
+
+
+.rect2
+{
+	stroke: yellow;
+	fill: yellow;
+	size: 20px;
+}

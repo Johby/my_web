@@ -1,0 +1,57 @@
+<!-- html for text input, css for styling, svg for image visualising, javascript for interactive program (d3 incld)
+span = only for part of what you want, div = always the whole width, em = is more readable for reader compared to <i>-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src='http://d3js.org/d3.v3.min.js'></script>
+</head>
+
+<script src='http://d3js.org/d3.v3.min.js'></script>
+<body>
+<h1 class="heading">
+I am a blue robot shooting confusing beam!
+</h1>
+
+<img  id='dog' class='image'  src="dog.jpg" width='200' height='200' style='position: absolute; left: 705px; top: 150px' />
+<svg class="chart" style= 'background-color:rgb(230,0,0);'>
+    <polygon points="90,20 250,200 160,20 10,210" style='fill: yellow; opacity: 0.5'/>
+    <circle cx="130" cy="30" r="25" class="circ1">
+    </circle>
+    <circle cx='120' cy='28' r='2'/>
+    <circle cx='140' cy='28' r='2'/>
+    <circle cx='130' cy='40' r='2'/>
+    <rect x='100' y='60' width= '60' height= '70' class='rect1'>
+    </rect>
+    <rect x='105' y='130' width= '10' height= '70' class='rect2'>
+    </rect>
+    <rect x='145' y='130' width= '10' height= '70' class='rect2'>
+    </rect>
+    <rect x='110' y='70' width= '80' height= '10' class='rect1'>
+    </rect>  
+    <polygon points="500,10 550,190 460,210" style = 'fill:yellow' />
+	<polygon points="350,10 400,130 310,150" style = 'fill:yellow' />
+	<polygon points="250,40 300,90 210,120" style = 'fill:yellow' />
+	<polygon points="190,70 700,200 700,100" style = 'fill:rgb(0,100,230)' />
+
+	<line x1="190" y1="70" x2="700" y2="200" style="stroke:green;stroke-width:5" />
+	<line x1="190" y1="70" x2="700" y2="100" style="stroke:green;stroke-width:5" />
+	</svg>
+
+<div style='padding: 20px; position: center'> <button id='feed'> Feed me!</button> <button id='feed1'> Torture me!</button> </div>
+
+<div class='description'>
+Hello there!
+</div>
+<div class="description">
+This is just a weird, kindergarten looking robot
+</div>
+
+
+<script src='interaction.js'></script>
+<script src='data.js'></script>
+<body>
+
+</html>
